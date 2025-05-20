@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style> @import url('styles.css');</style>
 </head>
 <body>
-    <header>FORMULÁRIO </header><br><br>
+    <header>
+        
+        <h1>FORMULÁRIO</h1> 
     <form action="/processar-formulario" method="post">
     <label for="idNome">Nome Completo: </label>
     <input type="text" id="idNome" name="Nome" required><br><br>
@@ -36,8 +39,13 @@
     <label>Mensagem:</label>
     <textarea rows="5" cols="45" maxlength="200"></textarea><br><br>
 
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
+    <div class="botoes">
+        <button class="enviar">Enviar</button>
+        <button class="limpar">Limpar</button>
+    </div>
+   
+
+    </header><br><br>
 
 
 </form>

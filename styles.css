@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(223, 221, 218) ;
+    color: darkslateblue;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    justify-content: center;    
+    }
+
+header {
+    background-color: rgb(171, 204, 214);    
+    color: black;
+    text-align: left;
+    padding: 50px;
+    max-width: 600px;
+    padding: 50px;
+    border-radius: 35px;
+    transition: transform 0.5s ease;   
+    }
+
+h1 {
+    text-align: center;
+}
+.botoes {
+    display: flexbox;
+    font-size: 30px;
+    text-align: center;
+    }
+.enviar:hover {
+    transform: translateY(-2px);
+    
+}
+.limpar:hover {
+    transform: translateY(-2px);
+}
+
+input[type="text"],
+input[type="email"], 
+input[type="tel"], 
+input[type="date"], 
+select, 
+textarea {
+    width: 90%; 
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+
+
+
